@@ -1,0 +1,203 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: blueviolet; */
+}
+
+
+/* Body */
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-color: #f4f4f4; */
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+#test{
+    color: #007bff;
+
+    text-align: center;
+
+    h1{
+        color: aqua;
+        background-color: #222;
+
+        padding: 10px;
+    }
+    a{
+        text-decoration: none;
+    }
+    
+
+}
+
+
+
+/* Navbar */
+
+.navbar{
+    background-color: #222;
+    color: white;
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+    padding: 20px;
+}
+
+
+.logo{
+    font-size: 30px;
+}
+
+
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+
+
+.nav-links li{
+    margin-left: 20px;
+}
+
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Hero */
+
+.hero{
+    text-align: center;
+    padding: 100px 20px;
+
+    background-color: #007bff;
+    color: white;
+}
+
+
+.hero h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+.hero p{
+    margin-bottom: 20px;
+}
+
+
+.hero button{
+    padding: 12px 25px;
+    border-radius: 15px;
+    background-color: white;
+    color: #007bff;
+    cursor: pointer;
+}
+
+
+/* About */
+
+.about{
+    padding: 50px;
+    text-align: center;
+}
+
+
+.about img{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+/* Skills */
+
+.skills{
+    padding: 50px;
+}
+
+
+.skills h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* Cards */
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.card{
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    box-shadow: 0px 0px 10px rgb(163, 254, 8);
+}
+
+
+/* Contact */
+
+.contact{
+    padding: 50px;
+}
+
+
+.contact h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+form{
+    width: 400px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+form input,
+form textarea{
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+
+form button{
+    padding: 12px;
+    border: none;
+
+    background-color: #222;
+    color: white;
+
+    cursor: pointer;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #222;
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+}

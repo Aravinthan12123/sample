@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webgapp Company</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial;
+        }
+
+        body{
+            background:#f4f4f4;
+        }
+
+        /* NAVBAR USING FLEX */
+
+        nav{
+            display:flex;
+            justify-content:flex-start;
+            align-items:center;
+
+            background:black;
+            color:white;
+
+            padding:20px 50px;
+        }
+
+        nav ul{
+            display:flex;
+            gap:20px;
+            list-style:none;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+        }
+
+        /* HERO SECTION USING FLEX */
+
+        .hero{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+
+            padding:60px;
+            background:white;
+        }
+
+        .hero-text{
+            width:50%;
+        }
+
+        .hero-text h1{
+            font-size:50px;
+            margin-bottom:20px;
+        }
+
+        .hero-text p{
+            margin-bottom:20px;
+            line-height:1.6;
+        }
+
+        .hero button{
+            padding:12px 25px;
+            border:none;
+            background:blue;
+            color:white;
+            cursor:pointer;
+        }
+
+        .hero img{
+            width:400px;
+            border-radius:10px;
+        }
+
+        /* SERVICES USING GRID */
+
+        .services{
+            padding:60px;
+        }
+
+        .services h2{
+            text-align:center;
+            margin-bottom:40px;
+            font-size:40px;
+        }
+
+        .service-box{
+            display:grid;
+
+            grid-template-columns:repeat(3,1fr);
+
+            gap:20px;
+        }
+
+        .card{
+            background:white;
+            padding:30px;
+            border-radius:10px;
+            text-align:center;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .card h3{
+            margin-bottom:15px;
+        }
+
+        /* FOOTER USING FLEX */
+
+        footer{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+
+            background:black;
+            color:white;
+
+            padding:20px 50px;
+            margin-top:40px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav>
+
+        <h2>Webgapp</h2>
+
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+
+    </nav>
+
+<style>
+    .container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items:center;
+    gap:20px;
+    height:100vh;
+}
+
+.box{
+    background:blue;
+    color:white;
+    padding:40px;
+}
+</style>
+
+
+<div class="container">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    
+    
+</div>
+    <!-- HERO -->
+
+    <!-- <section class="hero">
+
+        <div class="hero-text">
+
+            <h1>We Build Modern Websites</h1>
+
+            <p>
+                Webgapp is an IT company creating
+                websites, software, and smart systems.
+            </p>
+
+            <button>Get Started</button>
+
+        </div>
+
+        <img src="https://picsum.photos/400/300" alt="">
+
+    </section> -->
+
+
+    <!-- SERVICES -->
+
+    <!-- <section class="services">
+
+        <h2>Our Services</h2>
+
+        <div class="service-box">
+
+            <div class="card">
+                <h3>Web Development</h3>
+                <p>Modern responsive websites.</p>
+            </div>
+
+            <div class="card">
+                <h3>Software Development</h3>
+                <p>Desktop and cloud software.</p>
+            </div>
+
+            <div class="card">
+                <h3>AI Solutions</h3>
+                <p>Machine learning systems.</p>
+            </div>
+
+        </div>
+
+    </section> -->
+
+
+
+
+
+    <!-- FOOTER -->
+
+    <!-- <footer>
+
+        <p>© 2026 Webgapp</p>
+
+        <p>All Rights Reserved</p>
+
+    </footer> -->
+
+</body>
+</html>

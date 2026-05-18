@@ -1,0 +1,128 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Website</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+
+        <h1 class="logo">My Website</h1>
+
+        <ul class="nav-links">
+
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <h1>Welcome To My Website</h1>
+        <!-- <h5>Welcome</h5> -->
+
+        <p>
+            I am learning HTML and CSS
+        </p>
+
+        <button>Learn More</button>
+
+    </section>
+
+
+    <div id="test">
+        <h1>hiii....!</h1>
+        <p>webgapp</p>
+        <a href="https://www.google.com/">Google</a>
+    </div>
+
+
+    <!-- About -->
+    <section class="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            My name is Aravinth.
+            I am learning Full Stack Development.
+        </p>
+
+        <img src="{% static 'image/photo.jpg' %}">
+
+    </section>
+
+    <!-- Skills -->
+    <section class="skills">
+
+        <h2>My Skills</h2>
+
+        <div class="card-container">
+
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Website structure</p>
+            </div>
+
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Website styling</p>
+            </div>
+
+            <div class="card">
+                <h3>Django</h3>
+                <p>Backend framework</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+
+        <h2>Contact Me</h2>
+
+        <form>
+
+            <input type="text" placeholder="Enter Name">
+
+            <input type="email" placeholder="Enter Email">
+
+            <textarea placeholder="Message"></textarea>
+
+            <button type="submit">
+                Submit
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 My Website
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
