@@ -26,9 +26,9 @@ def form(request):
     return render(request, "form.html")
 
 
-def form_result(request):
-    result=Forms.objects.all()
-    return render(request,'form_result.html',{"result":result})
+    def form_result(request):
+        result=Forms.objects.all()
+        return render(request,'form_result.html',{"result":result})
 
 
 def form_edit(request,id):
@@ -38,11 +38,10 @@ def form_edit(request,id):
         age = request.POST.get('age')
         dob = request.POST.get('dob')
         Forms.objects.filter(id=id).update(name = name,age = age ,dob = dob)
-
     return render(request,'form_edit.html',{"edit":edit})
 
 
-def form_delete(request, id):
-    delete = Forms.objects.filter(id=id)  
-    delete.delete()                            
-    return redirect("form_result")
+# def form_delete(request, id):
+#     delete = Forms.objects.filter(id=id)  
+#     delete.delete()                            
+#     return redirect("form_result")
